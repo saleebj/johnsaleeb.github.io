@@ -26,3 +26,6 @@ If you want to edit and test your website locally on this computer:
    bundle exec jekyll serve
    ```
 3. Open your browser and navigate to `http://localhost:4000`.
+
+
+https://saleebj.github.io/johnsaleeb.github.io/
