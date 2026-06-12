@@ -1,0 +1,28 @@
+title: John Saleeb
+email: john.saleeb@duke.edu # or similar, let's provide a placeholder or leave it blank
+description: >-
+  Neuroscience, Data Science, & Healthcare Analytics at Northwestern & Duke.
+  Researching orthopedic surgical outcomes, wearable clinical diagnostics, and global health equity.
+baseurl: "" # empty for custom domain or user page
+url: "https://johnsaleeb.co.us"
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Projects & Goals
+    url: /projects/
+  - title: Publications
+    url: /publications/
+
+# Build settings
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/

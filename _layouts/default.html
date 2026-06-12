@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+  <div class="background-accent-blobs" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-container">
+      <a href="{{ '/' | relative_url }}" class="site-logo">
+        <span class="logo-dot"></span> John Saleeb
+      </a>
+      
+      <nav class="site-nav" id="site-nav">
+        <ul>
+          {% for link in site.navigation %}
+            <li>
+              <a href="{{ link.url | relative_url }}" 
+                 class="nav-link {% if page.url == link.url %}active{% endif %}">
+                {{ link.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+      
+      <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main-content" id="main-content">
+    <div class="content-container animate-fade-in">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p>&copy; {{ site.time | date: '%Y' }} John Saleeb. Built with passion & Jekyll.</p>
+      <div class="footer-links">
+        <a href="mailto:john.saleeb@duke.edu">Contact</a>
+        <a href="https://github.com/johnsaleeb" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.youtube.com/watch?v=oiXWMKi_Wec&t=83s" target="_blank" rel="noopener">TEDx Talk</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('site-nav');
+      const toggle = document.querySelector('.menu-toggle');
+      nav.classList.toggle('open');
+      toggle.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
