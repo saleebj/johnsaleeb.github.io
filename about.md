@@ -27,7 +27,7 @@ description: "About John Saleeb: medical student, the physician-patient relation
     <li class="timeline-item">
       <span class="timeline-date">2022 – 2025 <span class="degree">BA</span></span>
       <h3>Northwestern University</h3>
-      <p>Neuroscience, with minors in Data Science and Global Health Studies. Posse Scholar and 2024 <a href="#ubben">Jeff Ubben Posse Fellow</a>.</p>
+      <p>Bachelor of Arts, major in Neuroscience, minors in Data Science and Global Health Studies. Posse Scholar and 2024 <a href="#ubben">Jeff Ubben Posse Fellow</a>.</p>
     </li>
   </ol>
 </section>
