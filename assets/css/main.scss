@@ -266,6 +266,8 @@ strong {
 
 // --- BUTTONS ---
 .btn {
+  font-family: inherit;
+  border: none;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -639,6 +641,71 @@ strong {
   .site-logo:hover .logo-mark,
   .site-footer .fun-fact-note.pop {
     animation: none;
+  }
+}
+
+// --- EMAIL POPUP ---
+.email-popup {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(43, 40, 37, 0.35);
+  animation: funFactPop 0.2s ease-out;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.email-popup-card {
+  position: relative;
+  width: 100%;
+  max-width: 26rem;
+  background: $card-bg;
+  border: 1px solid $border-color;
+  border-top: 3px solid $accent-secondary;
+  border-radius: 16px;
+  padding: 2rem 1.75rem 1.75rem;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+
+  h3 {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.email-popup-address {
+  font-size: 1.1rem;
+  color: $accent-color;
+  margin-bottom: 1.5rem;
+  word-break: break-all;
+  user-select: all;
+}
+
+.email-popup-actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.email-popup-close {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.9rem;
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  line-height: 1;
+  color: $text-muted;
+  cursor: pointer;
+
+  &:hover {
+    color: $accent-color;
   }
 }
 

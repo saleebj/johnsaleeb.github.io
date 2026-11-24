@@ -61,6 +61,20 @@
     </div>
   </footer>
 
+  {% if site.email %}
+  <div class="email-popup" id="email-popup" role="dialog" aria-modal="true" aria-labelledby="email-popup-title" hidden>
+    <div class="email-popup-card">
+      <button type="button" class="email-popup-close" id="email-popup-close" aria-label="Close">&times;</button>
+      <h3 id="email-popup-title">Say hello</h3>
+      <p class="email-popup-address">{{ site.email }}</p>
+      <div class="email-popup-actions">
+        <button type="button" class="btn btn-primary" id="email-popup-copy">Copy email</button>
+        <a class="btn btn-secondary" href="mailto:{{ site.email }}">Open mail app</a>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
   <script>
     function toggleMenu() {
       const nav = document.getElementById('site-nav');
@@ -96,6 +110,45 @@
       });
     })();
 
+    // Email links open a small popup with the address and a copy button,
+    // since mailto links do nothing when no mail app is set up.
+    (function () {
+      const popup = document.getElementById('email-popup');
+      if (!popup) return;
+      const copyBtn = document.getElementById('email-popup-copy');
+      const address = popup.querySelector('.email-popup-address').textContent.trim();
+      let lastFocus = null;
+      function open(e) {
+        e.preventDefault();
+        lastFocus = document.activeElement;
+        popup.hidden = false;
+        copyBtn.textContent = 'Copy email';
+        copyBtn.focus();
+      }
+      function close() {
+        popup.hidden = true;
+        if (lastFocus) lastFocus.focus();
+      }
+      document.querySelectorAll('a[href^="mailto:"]').forEach(function (a) {
+        if (!popup.contains(a)) a.addEventListener('click', open);
+      });
+      document.getElementById('email-popup-close').addEventListener('click', close);
+      popup.addEventListener('click', function (e) { if (e.target === popup) close(); });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !popup.hidden) close(); });
+      copyBtn.addEventListener('click', function () {
+        const done = function () { copyBtn.textContent = 'Copied!'; };
+        if (navigator.clipboard && window.isSecureContext) {
+          navigator.clipboard.writeText(address).then(done, function () { selectAddress(); });
+        } else { selectAddress(); }
+      });
+      function selectAddress() {
+        const range = document.createRange();
+        range.selectNodeContents(popup.querySelector('.email-popup-address'));
+        const sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(range);
+        copyBtn.textContent = 'Press Cmd+C to copy';
+      }
+    })();
+
     // Gently fade sections in as they scroll into view.
     (function () {
       if (!('IntersectionObserver' in window)) return;
@@ -117,7 +170,7 @@
       });
     })();
 
-    console.log('%cHi, fellow inspector.%c\nIf you are reading the source, we should probably talk. saleeb@umich.edu',
+    console.log('%cHi, fellow inspector.%c\nIf you are reading the source, we should probably talk. {{ site.email }}',
       'font: 18px Georgia, serif; color: #2f4a6d;', 'font: 13px sans-serif; color: #a67c00;');
   </script>
 </body>
