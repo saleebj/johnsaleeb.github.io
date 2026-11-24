@@ -691,6 +691,43 @@ strong {
   margin-top: 1rem;
 }
 
+// --- FEATURE (photo + text) ---
+.feature-section {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 2.5rem;
+  align-items: center;
+  margin: 4rem 0;
+  scroll-margin-top: 100px;
+
+  .feature-image img {
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+  }
+
+  .project-tag {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: rgba($accent-secondary, 0.1);
+    color: $accent-secondary;
+    margin-bottom: 0.75rem;
+  }
+
+  h2 { font-size: 2rem; }
+  p { color: $text-muted; margin-bottom: 1.5rem; }
+
+  .feature-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+
 // --- CONTACT ---
 .contact-section {
   margin: 4rem 0 2rem;
@@ -723,6 +760,10 @@ strong {
 
   .hero-actions {
     justify-content: center;
+  }
+
+  .feature-section {
+    grid-template-columns: 1fr;
   }
 
   .about-grid,

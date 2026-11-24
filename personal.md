@@ -47,7 +47,6 @@ description: "John Saleeb's personal projects: the Buzzer Beater and Mama I Made
     <p>Always on the lookout for a new spot to try. Send me your favorite restaurant and I'll probably go.</p>
     <div class="project-footer">
       <span class="project-tech">Eating • Exploring</span>
-      <span>🍜</span>
     </div>
   </div>
 
@@ -57,7 +56,6 @@ description: "John Saleeb's personal projects: the Buzzer Beater and Mama I Made
     <p>Hours lost learning way too much about very specific things, like how olive oil is made or why sidewalks are built the way they are.</p>
     <div class="project-footer">
       <span class="project-tech">Olive Oil • Sidewalks • Whatever's Next</span>
-      <span>🫒</span>
     </div>
   </div>
 
@@ -67,7 +65,6 @@ description: "John Saleeb's personal projects: the Buzzer Beater and Mama I Made
     <p>When I'm not recording my own, I'm listening to stories about how great companies and founders got their start.</p>
     <div class="project-footer">
       <span class="project-tech">Founders • Acquired • How I Built This</span>
-      <span>🎧</span>
     </div>
   </div>
 </div>

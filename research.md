@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 redirect_from:
   - /projects/
-description: "Explore John Saleeb's research and future goals in healthcare, medical devices, and neuroscience."
+description: "Explore John Saleeb's research and future goals in healthcare, patient-facing technology, and medical devices."
 ---
 
 <h1 class="page-title">Research</h1>
@@ -58,13 +58,13 @@ description: "Explore John Saleeb's research and future goals in healthcare, med
   <h2>Where I'm Headed</h2>
   <ul class="goals-list">
     <li>
-      <strong>Translational AI in Medicine:</strong> Designing closed-loop clinician alert systems using stream-processed wearable data to diagnose cardiovascular anomalies dynamically.
+      <strong>Strengthening the Physician-Patient Relationship:</strong> Understanding what strains the connection between physicians and patients, and building patient-facing software that eases it.
     </li>
     <li>
       <strong>Surgical Care Pathways:</strong> Creating data-informed personalized pain regimes to lower standard opioid prescriptions post-surgery across major orthopedic departments.
     </li>
     <li>
-      <strong>Global Health Tech Equity:</strong> Expanding my work in low-cost clinical screening technologies to rural and under-resourced international clinics, lowering boundaries to early cardiology diagnostics.
+      <strong>Wearables That Reach Patients:</strong> Building on my hardware experience with wearable sensors to make low-cost diagnostics part of everyday care.
     </li>
   </ul>
 </section>
