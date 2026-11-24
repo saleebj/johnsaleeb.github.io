@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.url == "/" %}John Saleeb | Medical Student, University of Michigan{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   
   <!-- SEO Meta Tags -->
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
@@ -33,4 +33,26 @@
   
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="icon" href="{{ '/assets/images/profile.jpg' | relative_url }}">
+  {% if page.url == "/" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "John Saleeb",
+    "url": "{{ '/' | absolute_url }}",
+    "image": "{{ '/assets/images/profile.jpg' | absolute_url }}",
+    "jobTitle": "Medical Student",
+    "affiliation": {"@type": "CollegeOrUniversity", "name": "University of Michigan Medical School"},
+    "alumniOf": [
+      {"@type": "CollegeOrUniversity", "name": "Duke University"},
+      {"@type": "CollegeOrUniversity", "name": "Northwestern University"}
+    ],
+    "sameAs": [
+      "{{ site.linkedin_url }}",
+      "{{ site.google_scholar_url }}",
+      "https://github.com/{{ site.github_username }}"
+    ]
+  }
+  </script>
+  {% endif %}
 </head>
