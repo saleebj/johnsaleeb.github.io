@@ -450,7 +450,8 @@ strong {
   margin-bottom: 3.5rem;
 
   h2 {
-    border-left: 4px solid $accent-color;
+    border-left: 4px solid $accent-secondary;
+    color: $accent-secondary;
     padding-left: 1rem;
     margin-bottom: 1.5rem;
     font-size: 1.75rem;

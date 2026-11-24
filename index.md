@@ -48,7 +48,7 @@ description: "John Saleeb is a first-year medical student at the University of M
     Watch my TEDx talk where I discuss innovative approaches, ideas, and experiences in education, growth, and community.
   </p>
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/oiXWMKi_Wec?start=83" title="John Saleeb TEDx Talk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/oiXWMKi_Wec" title="John Saleeb TEDx Talk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </section>
 
