@@ -8,7 +8,7 @@ cv_url: "" # e.g. /assets/files/John-Saleeb-CV.pdf
 description: >-
   Neuroscience, Data Science, & Healthcare Analytics at Northwestern & Duke.
   Researching orthopedic surgical outcomes, wearable clinical diagnostics, and global health equity.
-baseurl: "/johnsaleeb.github.io" # repo name; needed so CSS, images and links load
+baseurl: "" # repo is saleebj.github.io, so the site lives at the root
 url: "https://saleebj.github.io"
 
 # Navigation
