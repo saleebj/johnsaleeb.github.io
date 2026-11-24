@@ -623,6 +623,18 @@ strong {
   75% { transform: rotate(-2deg); }
 }
 
+// Scroll reveal (classes are added by script, so content stays visible without JS)
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+
+  &.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .site-logo:hover .logo-mark,
   .site-footer .fun-fact-note.pop {
