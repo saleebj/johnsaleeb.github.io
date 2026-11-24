@@ -1,16 +1,19 @@
 ---
 layout: default
-title: Projects & Goals
-description: "Explore John Saleeb's research projects and future goals in healthcare, medical devices, and neuroscience."
+title: Research
+permalink: /research/
+redirect_from:
+  - /projects/
+description: "Explore John Saleeb's research and future goals in healthcare, medical devices, and neuroscience."
 ---
 
-<h1 class="page-title">Projects & Goals</h1>
+<h1 class="page-title">Research</h1>
 <p class="page-intro">
   A look at the clinical, computational, and technical projects I am currently driving forward, alongside my long-term aspirations for health tech and equity.
 </p>
 
 <section>
-  <h2 class="section-heading">Current Projects</h2>
+  <h2 class="section-heading">Current Research</h2>
   
   <div class="projects-grid">
     <div class="project-card">
@@ -52,7 +55,7 @@ description: "Explore John Saleeb's research projects and future goals in health
 </section>
 
 <section class="goals-section">
-  <h2>Future Goals</h2>
+  <h2>Where I'm Headed</h2>
   <ul class="goals-list">
     <li>
       <strong>Translational AI in Medicine:</strong> Designing closed-loop clinician alert systems using stream-processed wearable data to diagnose cardiovascular anomalies dynamically.

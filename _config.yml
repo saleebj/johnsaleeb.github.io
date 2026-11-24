@@ -15,8 +15,12 @@ url: "https://saleebj.github.io"
 navigation:
   - title: Home
     url: /
-  - title: Projects & Goals
-    url: /projects/
+  - title: About
+    url: /about/
+  - title: Research
+    url: /research/
+  - title: Personal Projects
+    url: /personal/
   - title: Publications
     url: /publications/
 
@@ -25,9 +29,11 @@ theme: null
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 exclude:
   - Gemfile
+  - README.md
   - Gemfile.lock
   - node_modules
   - vendor/
