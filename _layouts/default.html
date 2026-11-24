@@ -46,6 +46,10 @@
 
   <footer class="site-footer">
     <div class="footer-container">
+      <div class="fun-fact" id="fun-fact">
+        <button type="button" class="fun-fact-button" id="fun-fact-button" aria-controls="fun-fact-note">Psst. Press for a fun fact.</button>
+        <p class="fun-fact-note" id="fun-fact-note" role="status" aria-live="polite" hidden></p>
+      </div>
       <p>&copy; {{ site.time | date: '%Y' }} John Saleeb. Built with passion & Jekyll.</p>
       <div class="footer-links">
         {% if site.email %}<a href="mailto:{{ site.email }}">Email</a>{% endif %}
@@ -64,6 +68,36 @@
       nav.classList.toggle('open');
       toggle.setAttribute('aria-expanded', toggle.classList.toggle('active'));
     }
+
+    // Easter egg: a footer button that hands out fun facts, one at a time.
+    (function () {
+      const facts = [
+        "Hi! Thanks for pressing the button. Most people scroll right past it.",
+        "Ask me about how olive oil gets graded. Actually, only if you have an hour.",
+        "Sidewalks are more interesting than you think. Curb cuts alone could fill a podcast episode.",
+        "My podcast queue: Founders, Acquired, and How I Built This. My restaurant list is longer.",
+        "The fish in my logo is an ichthys, an early Christian symbol. The JS is just me.",
+        "Why did the cookie go to the doctor? It was feeling crummy.",
+        "If you know a restaurant I should try, the email link is right below. I take recommendations seriously.",
+        "You have found every fun fact. Starting over, because the button deserves a second lap."
+      ];
+      const button = document.getElementById('fun-fact-button');
+      const note = document.getElementById('fun-fact-note');
+      if (!button || !note) return;
+      let i = 0;
+      button.addEventListener('click', function () {
+        note.hidden = false;
+        note.classList.remove('pop');
+        void note.offsetWidth;
+        note.textContent = facts[i];
+        note.classList.add('pop');
+        i = (i + 1) % facts.length;
+        button.textContent = 'Another one?';
+      });
+    })();
+
+    console.log('%cHi, fellow inspector.%c\nIf you are reading the source, we should probably talk. saleeb@umich.edu',
+      'font: 18px Georgia, serif; color: #2f4a6d;', 'font: 13px sans-serif; color: #a67c00;');
   </script>
 </body>
 </html>

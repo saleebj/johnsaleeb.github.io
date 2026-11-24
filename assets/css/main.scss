@@ -566,6 +566,70 @@ strong {
   }
 }
 
+// --- EASTER EGG: FOOTER FUN FACTS ---
+.fun-fact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  max-width: 34rem;
+}
+
+.fun-fact-button {
+  font: inherit;
+  font-size: 0.85rem;
+  color: $text-muted;
+  background: none;
+  border: 1px dashed rgba($accent-secondary, 0.5);
+  border-radius: 999px;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+
+  &:hover,
+  &:focus-visible {
+    color: $accent-color;
+    border-color: $accent-secondary;
+    border-style: solid;
+    transform: translateY(-1px);
+  }
+}
+
+.site-footer .fun-fact-note {
+  font-family: 'Libre Caslon Text', Georgia, serif;
+  font-size: 1rem;
+  color: $accent-color;
+  line-height: 1.5;
+
+  &.pop {
+    animation: funFactPop 0.35s ease-out;
+  }
+}
+
+@keyframes funFactPop {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+// Logo fish gives a little wiggle on hover
+.site-logo:hover .logo-mark {
+  animation: fishWiggle 0.6s ease-in-out;
+}
+
+@keyframes fishWiggle {
+  0%, 100% { transform: rotate(0); }
+  25% { transform: rotate(-6deg); }
+  50% { transform: rotate(4deg); }
+  75% { transform: rotate(-2deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-logo:hover .logo-mark,
+  .site-footer .fun-fact-note.pop {
+    animation: none;
+  }
+}
+
 // --- SHARED PAGE & SECTION HEADINGS ---
 .page-title {
   font-size: clamp(2.25rem, 6vw, 3rem);
