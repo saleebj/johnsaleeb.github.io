@@ -1,15 +1,15 @@
 ---
 layout: default
 title: Home
-description: "John Saleeb is a researcher at Northwestern & Duke University specializing in neuroscience, healthcare analytics, and medical devices."
+description: "John Saleeb is a first-year medical student at the University of Michigan working in neuroscience, healthcare analytics, and medical devices."
 ---
 
 <section class="hero-section">
   <div class="hero-text">
     <h1>Hi, I'm <br><span>John Saleeb</span></h1>
     <p>
-      I am a researcher bridging the intersection of <strong>Neuroscience</strong>, <strong>Data Science</strong>, and <strong>Healthcare Analytics</strong>. 
-      Currently pursuing my studies at Duke University's Fuqua School of Business and an alumnus of Northwestern University. I work on building technology-driven solutions for clinical outcomes, medical devices, and health equity.
+      I'm a first-year medical student at the University of Michigan and a Northwestern neuroscience alum.
+      I work where neuroscience, data science, and healthcare analytics meet, building technology-driven solutions for clinical outcomes, medical devices, and health equity.
     </p>
     <div class="hero-actions">
       <a href="{{ '/research/' | relative_url }}" class="btn btn-primary">See My Research</a>
@@ -32,7 +32,7 @@ description: "John Saleeb is a researcher at Northwestern & Duke University spec
     
     <div class="stat-card">
       <h3>Healthcare Analytics</h3>
-      <p>Applying advanced analytics and data science methods at Duke University to solve complex surgical and healthcare delivery challenges.</p>
+      <p>Applying analytics and data science to surgical outcomes and healthcare delivery, through research with teams at Duke and beyond.</p>
     </div>
     
     <div class="stat-card">
