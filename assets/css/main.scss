@@ -736,13 +736,24 @@ strong {
   }
 
   .timeline-date {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
     font-size: 0.85rem;
     font-weight: 600;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: $accent-secondary;
     margin-bottom: 0.25rem;
+
+    .degree {
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+      padding: 0.15rem 0.6rem;
+      border-radius: 30px;
+      background-color: rgba($accent-color, 0.08);
+      color: $accent-color;
+    }
   }
 
   h3 {
