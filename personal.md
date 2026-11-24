@@ -7,7 +7,7 @@ description: "John Saleeb's personal projects: the Buzzer Beater and Mama I Made
 
 <h1 class="page-title">Personal Projects</h1>
 <p class="page-intro">
-  The fun side. Podcasts I host, talks I've given, and things I tinker with when I'm not in the lab.
+  The fun side. Podcasts I host, talks I've given, and the things I get excited about when I'm not in the lab.
 </p>
 
 <h2 class="section-heading">Podcasts</h2>
@@ -29,7 +29,7 @@ description: "John Saleeb's personal projects: the Buzzer Beater and Mama I Made
   </div>
 </div>
 
-<h2 class="section-heading">More Fun Stuff</h2>
+<h2 class="section-heading">Outside the Lab</h2>
 <div class="personal-grid">
   <div class="project-card">
     <span class="project-tag">Talk</span>
@@ -42,12 +42,32 @@ description: "John Saleeb's personal projects: the Buzzer Beater and Mama I Made
   </div>
 
   <div class="project-card">
-    <span class="project-tag">Just for Fun</span>
-    <h3>More on the Way</h3>
-    <p>Side projects, hobbies, and favorite things will live here.</p>
+    <span class="project-tag">Food</span>
+    <h3>Restaurant Hunting</h3>
+    <p>Always on the lookout for a new spot to try. Send me your favorite restaurant and I'll probably go.</p>
     <div class="project-footer">
-      <span class="project-tech">Hobbies • Side Projects</span>
-      <span class="badge-soon">Coming soon</span>
+      <span class="project-tech">Eating • Exploring</span>
+      <span>🍜</span>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <span class="project-tag">Curiosity</span>
+    <h3>Rabbit Holes</h3>
+    <p>Hours lost learning way too much about very specific things, like how olive oil is made or why sidewalks are built the way they are.</p>
+    <div class="project-footer">
+      <span class="project-tech">Olive Oil • Sidewalks • Whatever's Next</span>
+      <span>🫒</span>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <span class="project-tag">On Repeat</span>
+    <h3>Podcasts I Love</h3>
+    <p>When I'm not recording my own, I'm listening to stories about how great companies and founders got their start.</p>
+    <div class="project-footer">
+      <span class="project-tech">Founders • Acquired • How I Built This</span>
+      <span>🎧</span>
     </div>
   </div>
 </div>
