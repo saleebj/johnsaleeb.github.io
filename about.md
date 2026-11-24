@@ -7,7 +7,7 @@ description: "About John Saleeb: neuroscience, healthcare analytics, and a life 
 
 <h1 class="page-title">About Me</h1>
 <p class="page-intro">
-  I'm John. I like big questions about the brain and health, and I like answering them with data.
+  I'm John, a first-year medical student at the University of Michigan. I like big questions about the brain and health, and I like answering them with data.
   Here's the short version of how I got here and what I care about.
 </p>
 
@@ -19,6 +19,11 @@ description: "About John Saleeb: neuroscience, healthcare analytics, and a life 
   </div>
   <div class="about-card">
     <span class="project-tag">Now</span>
+    <h3>University of Michigan</h3>
+    <p>First-year medical student.</p>
+  </div>
+  <div class="about-card">
+    <span class="project-tag">Business of Health</span>
     <h3>Duke University</h3>
     <p>Fuqua School of Business, connecting clinical research with how healthcare is built and run.</p>
   </div>
@@ -26,11 +31,6 @@ description: "About John Saleeb: neuroscience, healthcare analytics, and a life 
     <span class="project-tag">Fellowship</span>
     <h3>Jeff Ubben Posse Fellow</h3>
     <p>2024 fellow, shadowing leaders such as Dr. Bryan T. Kelly, CEO of Hospital for Special Surgery.</p>
-  </div>
-  <div class="about-card">
-    <span class="project-tag">Speaking</span>
-    <h3>TEDx Speaker</h3>
-    <p>Shared ideas on education, growth, and community. <a href="https://www.youtube.com/watch?v=oiXWMKi_Wec&t=83s" target="_blank" rel="noopener">Watch the talk</a>.</p>
   </div>
 </section>
 

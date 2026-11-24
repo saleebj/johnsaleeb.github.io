@@ -34,7 +34,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Fraunces', Georgia, serif;
-  font-weight: 700;
+  font-weight: 500;
   color: $text-main;
   line-height: 1.25;
   margin-bottom: 1rem;
@@ -48,6 +48,10 @@ a {
   &:hover {
     color: darken($accent-color, 15%);
   }
+}
+
+strong {
+  font-weight: 600;
 }
 
 // --- DYNAMIC BACKGROUND ACCENTS ---
@@ -107,7 +111,7 @@ a {
   .site-logo {
     font-family: 'Fraunces', Georgia, serif;
     font-size: 1.5rem;
-    font-weight: 800;
+    font-weight: 600;
     color: $text-main;
     display: flex;
     align-items: center;
@@ -471,7 +475,7 @@ a {
   gap: 0.5rem;
 
   .pub-title {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.15rem;
     color: $text-main;
     line-height: 1.3;
