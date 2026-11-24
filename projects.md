@@ -4,13 +4,13 @@ title: Projects & Goals
 description: "Explore John Saleeb's research projects and future goals in healthcare, medical devices, and neuroscience."
 ---
 
-<h1 style="font-size: 3rem; margin-bottom: 1rem;">Projects & Goals</h1>
-<p style="font-size: 1.15rem; color: #69625b; margin-bottom: 3rem;">
+<h1 class="page-title">Projects & Goals</h1>
+<p class="page-intro">
   A look at the clinical, computational, and technical projects I am currently driving forward, alongside my long-term aspirations for health tech and equity.
 </p>
 
 <section>
-  <h2 style="font-size: 2rem; color: #5a6b57; border-bottom: 2px solid rgba(90, 107, 87, 0.15); padding-bottom: 0.5rem; margin-bottom: 2rem;">Current Projects</h2>
+  <h2 class="section-heading">Current Projects</h2>
   
   <div class="projects-grid">
     <div class="project-card">
