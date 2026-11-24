@@ -15,17 +15,17 @@ description: "About John Saleeb: medical student, the physician-patient relation
   <h2 class="section-heading">Education</h2>
   <ol class="timeline">
     <li class="timeline-item">
-      <span class="timeline-date">2026 – Present</span>
+      <span class="timeline-date">2026 – Present <span class="degree">MD Candidate</span></span>
       <h3>University of Michigan Medical School</h3>
-      <p>Doctor of Medicine (MD) candidate</p>
+      <p>Doctor of Medicine candidate</p>
     </li>
     <li class="timeline-item">
-      <span class="timeline-date">2025 – 2026</span>
+      <span class="timeline-date">2025 – 2026 <span class="degree">MS</span></span>
       <h3>Duke University, Fuqua School of Business</h3>
       <p>Master of Science in Quantitative Management, Healthcare Emphasis</p>
     </li>
     <li class="timeline-item">
-      <span class="timeline-date">2022 – 2025</span>
+      <span class="timeline-date">2022 – 2025 <span class="degree">BA</span></span>
       <h3>Northwestern University</h3>
       <p>Neuroscience, with minors in Data Science and Global Health Studies. Posse Scholar and 2024 <a href="#ubben">Jeff Ubben Posse Fellow</a>.</p>
     </li>
