@@ -26,7 +26,7 @@
         </ul>
       </nav>
       
-      <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">
+      <button class="menu-toggle" aria-label="Toggle menu" aria-controls="site-nav" aria-expanded="false" onclick="toggleMenu()">
         <span></span>
         <span></span>
         <span></span>
@@ -44,8 +44,9 @@
     <div class="footer-container">
       <p>&copy; {{ site.time | date: '%Y' }} John Saleeb. Built with passion & Jekyll.</p>
       <div class="footer-links">
-        <a href="mailto:john.saleeb@duke.edu">Contact</a>
-        <a href="https://github.com/johnsaleeb" target="_blank" rel="noopener">GitHub</a>
+        {% if site.email %}<a href="mailto:{{ site.email }}">Email</a>{% endif %}
+        {% if site.linkedin_url != "" %}<a href="{{ site.linkedin_url }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+        {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
         <a href="https://www.youtube.com/watch?v=oiXWMKi_Wec&t=83s" target="_blank" rel="noopener">TEDx Talk</a>
       </div>
     </div>
@@ -56,7 +57,7 @@
       const nav = document.getElementById('site-nav');
       const toggle = document.querySelector('.menu-toggle');
       nav.classList.toggle('open');
-      toggle.classList.toggle('active');
+      toggle.setAttribute('aria-expanded', toggle.classList.toggle('active'));
     }
   </script>
 </body>
