@@ -7,7 +7,7 @@ $bg-color: #fcfbf9;
 $bg-secondary: #f4f1eb;
 $text-main: #2b2825;
 $text-muted: #69625b;
-$accent-color: #c96843; // Terracotta
+$accent-color: #2f4a6d; // Deep navy
 $accent-secondary: #5a6b57; // Sage Green
 $accent-gold: #d4a373;
 $card-bg: #ffffff;
@@ -33,8 +33,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Fraunces', Georgia, serif;
-  font-weight: 500;
+  font-family: 'Libre Caslon Text', Georgia, serif;
+  font-weight: 400;
   color: $text-main;
   line-height: 1.25;
   margin-bottom: 1rem;
@@ -109,9 +109,9 @@ strong {
   }
 
   .site-logo {
-    font-family: 'Fraunces', Georgia, serif;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-family: 'Libre Caslon Text', Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 400;
     color: $text-main;
     display: flex;
     align-items: center;
