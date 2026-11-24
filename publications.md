@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Publications
+permalink: /publications/
 description: "Academic publications and medical research papers authored and co-authored by John Saleeb."
 ---
 

@@ -12,8 +12,8 @@ description: "John Saleeb is a researcher at Northwestern & Duke University spec
       Currently pursuing my studies at Duke University's Fuqua School of Business and an alumnus of Northwestern University. I work on building technology-driven solutions for clinical outcomes, medical devices, and health equity.
     </p>
     <div class="hero-actions">
-      <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary">View My Projects</a>
-      <a href="#about-me" class="btn btn-secondary">Learn More</a>
+      <a href="{{ '/research/' | relative_url }}" class="btn btn-primary">See My Research</a>
+      <a href="{{ '/about/' | relative_url }}" class="btn btn-secondary">More About Me</a>
     </div>
   </div>
   <div class="hero-image">
