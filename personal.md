@@ -37,7 +37,7 @@ description: "John Saleeb's personal projects: the Buzzer Beater and Mama I Made
     <p>My TEDx talk on education, growth, and community.</p>
     <div class="project-footer">
       <span class="project-tech">Public Speaking</span>
-      <a href="https://www.youtube.com/watch?v=oiXWMKi_Wec&t=83s" target="_blank" rel="noopener">Watch →</a>
+      <a href="https://youtu.be/oiXWMKi_Wec" target="_blank" rel="noopener">Watch →</a>
     </div>
   </div>
 
