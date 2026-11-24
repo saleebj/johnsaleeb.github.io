@@ -1,30 +1,37 @@
-# John Saleeb Personal Website
+# John Saleeb: Personal Website
 
-Welcome to the source repository for my personal website: **[saleebj.github.io](https://saleebj.github.io)**.
-This site is built using **Jekyll** and hosted on **GitHub Pages** completely for free.
+Source for **[saleebj.github.io](https://saleebj.github.io)**, built with Jekyll and hosted free on GitHub Pages.
 
-## 🌐 How to Access and Connect
+## How it works
 
-This website is hosted on GitHub's free default subdomain:
-👉 **[https://saleebj.github.io](https://saleebj.github.io)**
+- This repository is named `saleebj.github.io`, which matches the GitHub username, so GitHub Pages serves it at the root address above.
+- Every change merged into `main` is rebuilt and published automatically, usually within 1 to 2 minutes.
+- Hosting is free because the repository is public. There is no custom domain and nothing to renew.
 
-### Setup & Activation
-Because this repository is named `saleebj.github.io` (matching the GitHub username), it is a user site served at the root, and `_config.yml` keeps `baseurl` empty:
-1. **GitHub Pages** is automatically activated by GitHub once you push code to the `main` branch.
-2. The site is live and accessible globally at the link above.
-3. No configuration, custom DNS setup, or domain registrar payments are required!
+## Where things live
 
----
+| What | File |
+| --- | --- |
+| Name, email, LinkedIn, Google Scholar, CV link, menu | `_config.yml` |
+| Home page | `index.md` |
+| About (education timeline, Ubben Fellowship) | `about.md` |
+| Research | `research.md` (old `/projects/` link redirects here) |
+| Personal Projects (podcasts, hobbies) | `personal.md` |
+| Publications | `publications.md` (source of truth: [Google Scholar](https://scholar.google.com/citations?user=4CvPldMAAAAJ&hl=en)) |
+| Colors, fonts, layout | `assets/css/main.scss` |
+| Photos and link preview image | `assets/images/` |
 
-## 🛠️ Local Development & Preview
+Design: Libre Caslon Text headings, Plus Jakarta Sans body, deep navy `#2f4a6d` primary accent.
 
-If you want to edit and test your website locally on this computer:
+## Editing
 
-1. Open your terminal in the workspace directory.
-2. Build the site and host it locally:
-   ```bash
-   bundle exec jekyll serve
-   ```
-3. Open your browser and navigate to `http://localhost:4000`.
+The quickest way to make a small change is to open the file on GitHub, click the pencil icon, edit, and commit to `main`.
 
+To preview locally:
 
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+Then open `http://localhost:4000`.

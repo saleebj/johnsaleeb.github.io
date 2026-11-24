@@ -11,27 +11,25 @@ description: "About John Saleeb: medical student, the physician-patient relation
   Here's the short version of how I got here and what I care about.
 </p>
 
-<section class="about-grid">
-  <div class="about-card">
-    <span class="project-tag">Education</span>
-    <h3>Northwestern University</h3>
-    <p>Neuroscience major, with minors in Data Science and Global Health Studies.</p>
-  </div>
-  <div class="about-card">
-    <span class="project-tag">Now</span>
-    <h3>University of Michigan</h3>
-    <p>First-year medical student.</p>
-  </div>
-  <div class="about-card">
-    <span class="project-tag">Business of Health</span>
-    <h3>Duke University</h3>
-    <p>Fuqua School of Business, connecting clinical research with how healthcare is built and run.</p>
-  </div>
-  <div class="about-card">
-    <span class="project-tag">Fellowship</span>
-    <h3>Jeff Ubben Posse Fellow</h3>
-    <p>2024 fellow, mentored by Dr. Bryan T. Kelly, CEO of Hospital for Special Surgery. <a href="#ubben">More below</a>.</p>
-  </div>
+<section class="timeline-section">
+  <h2 class="section-heading">Education</h2>
+  <ol class="timeline">
+    <li class="timeline-item">
+      <span class="timeline-date">2026 – Present</span>
+      <h3>University of Michigan Medical School</h3>
+      <p>Doctor of Medicine (MD) candidate</p>
+    </li>
+    <li class="timeline-item">
+      <span class="timeline-date">2025 – 2026</span>
+      <h3>Duke University, Fuqua School of Business</h3>
+      <p>Master of Science in Quantitative Management, Healthcare Emphasis</p>
+    </li>
+    <li class="timeline-item">
+      <span class="timeline-date">2022 – 2025</span>
+      <h3>Northwestern University</h3>
+      <p>Neuroscience, with minors in Data Science and Global Health Studies. Posse Scholar and 2024 <a href="#ubben">Jeff Ubben Posse Fellow</a>.</p>
+    </li>
+  </ol>
 </section>
 
 <section class="goals-section">
