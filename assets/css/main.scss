@@ -8,8 +8,8 @@ $bg-secondary: #f4f1eb;
 $text-main: #2b2825;
 $text-muted: #69625b;
 $accent-color: #2f4a6d; // Deep navy
-$accent-secondary: #5a6b57; // Sage Green
-$accent-gold: #d4a373;
+$accent-secondary: #a67c00; // Deep gold (Michigan)
+$accent-gold: #a67c00;
 $card-bg: #ffffff;
 $border-color: rgba(43, 40, 37, 0.08);
 
@@ -117,12 +117,20 @@ strong {
     align-items: center;
     gap: 0.5rem;
 
-    .logo-dot {
-      width: 10px;
-      height: 10px;
-      background-color: $accent-color;
-      border-radius: 50%;
-      display: inline-block;
+    .logo-mark {
+      width: 58px;
+      height: 33px;
+      flex-shrink: 0;
+      margin-right: 0.5rem;
+      display: block;
+
+      .fish { fill: $accent-color; }
+      .initials {
+        fill: #ffffff;
+        font-family: 'Libre Caslon Text', Georgia, serif;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+      }
     }
   }
 
