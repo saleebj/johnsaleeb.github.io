@@ -9,7 +9,7 @@ description: "John Saleeb is a first-year medical student at the University of M
     <h1>Hi, I'm <br><span>John Saleeb</span></h1>
     <p>
       I'm a first-year medical student at the University of Michigan, interested in the systems that create our care experience.
-      I want to understand what strains the physician-patient relationship, and how patient-facing software can ease that tension. Along the way I've worked hands-on with wearable health technology, across hardware, mechanical, and electrical engineering.
+      I want to understand what strains the physician-patient relationship, and how patient-facing software can ease that tension. Along the way, I've worked hands-on with wearable health technology across hardware, mechanical, and electrical engineering.
     </p>
     <div class="hero-actions">
       <a href="{{ '/research/' | relative_url }}" class="btn btn-primary">See My Research</a>
