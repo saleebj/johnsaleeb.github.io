@@ -1,15 +1,15 @@
 ---
 layout: default
 title: Home
-description: "John Saleeb is a first-year medical student at the University of Michigan working in neuroscience, healthcare analytics, and medical devices."
+description: "John Saleeb is a first-year medical student at the University of Michigan interested in the physician-patient relationship and the systems and software that shape care."
 ---
 
 <section class="hero-section">
   <div class="hero-text">
     <h1>Hi, I'm <br><span>John Saleeb</span></h1>
     <p>
-      I'm a first-year medical student at the University of Michigan and a Northwestern neuroscience alum.
-      I work where neuroscience, data science, and healthcare analytics meet, building technology-driven solutions for clinical outcomes, medical devices, and health equity.
+      I'm a first-year medical student at the University of Michigan, interested in the systems that create our care experience.
+      I want to understand what strains the physician-patient relationship, and how patient-facing software can ease that tension. Along the way I've worked hands-on with wearable health technology, across hardware, mechanical, and electrical engineering.
     </p>
     <div class="hero-actions">
       <a href="{{ '/research/' | relative_url }}" class="btn btn-primary">See My Research</a>
@@ -26,18 +26,18 @@ description: "John Saleeb is a first-year medical student at the University of M
   
   <div class="quick-stats">
     <div class="stat-card">
-      <h3>Neuroscience</h3>
-      <p>Majored in Neuroscience at Northwestern University, studying brain-behavior relationships and clinical neuro-technologies.</p>
+      <h3>Physician-Patient Relationship</h3>
+      <p>Studying what strains the relationship between physicians and patients, and how patient-facing software can relieve that tension.</p>
     </div>
     
     <div class="stat-card">
-      <h3>Healthcare Analytics</h3>
-      <p>Applying analytics and data science to surgical outcomes and healthcare delivery, through research with teams at Duke and beyond.</p>
+      <h3>Wearables &amp; Analytics</h3>
+      <p>Hands-on experience with wearable technology across mechanical and electrical engineering, plus analytics research on surgical outcomes and care delivery.</p>
     </div>
     
     <div class="stat-card">
       <h3>Ubben Posse Fellow</h3>
-      <p>2024 Jeff Ubben Posse Fellow, shadowing industry leaders like Dr. Bryan T. Kelly (CEO, Hospital for Special Surgery).</p>
+      <p>2024 Jeff Ubben Posse Fellow, mentored by Dr. Bryan T. Kelly, CEO of Hospital for Special Surgery. <a href="{{ '/about/#ubben' | relative_url }}">Read more</a>.</p>
     </div>
   </div>
 </section>
