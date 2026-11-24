@@ -3,7 +3,7 @@ email: john.saleeb@duke.edu # or similar, let's provide a placeholder or leave i
 description: >-
   Neuroscience, Data Science, & Healthcare Analytics at Northwestern & Duke.
   Researching orthopedic surgical outcomes, wearable clinical diagnostics, and global health equity.
-baseurl: "" # empty for custom domain or user page
+baseurl: "/johnsaleeb.github.io" # repo name; needed so CSS, images and links load
 url: "https://saleebj.github.io"
 
 # Navigation
